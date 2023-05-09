@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Survey</title>
+    <link rel="stylesheet" href="Skyward Sword.css" title="Skyward Sword Styles">
+    <nav> <ul>
+        <li>  <a href="Index.html"> Home</a> </li>
+        <li>   <a href="About Skyward Sword.html"> About Skyward Sword </a> </li>
+        <li>   <a href="Survey of Skyward Sword.html">Survey </a>  </li>
+    </ul>
+    </nav><br>
+</head>
+
+<header id="top"><a href="Survey of Skyward Sword.html">Survey </a> </header>
+<div id="SurveyHeader"> </div>
+<br>
+<body>
+<br><br><br><br>
+<form method="post" name="Survey" id="Survey" action="Form submit.html">
+<fieldset><legend>Survey Information</legend>
+    <label>First Name:<input type="text" name="First Name" id="First Name" size="30" required></label>
+    <br><br>
+    <label>Last Name:<input type="text" name="Last Name" id="Last Name" size="30" required></label>
+    <br><br>
+    <label>Comments:<textarea name="Comments" id="Comments" placeholder="Enter Comments" cols="30"  rows="5"> </textarea> </label>
+    <br><br>
+    <label>Email:<input type="text" name="Email" id="Email"  required></label>
+    <br><br>
+    <label>Rating:</label><label><br>
+   <div class="slider"> 1
+            <input type="range" min="1" max="10" value="1" oninput="rangeValue.innerText = this.value">
+            10 <p id="rangeValue">1</p> /10
+       </div> </label>
+    <br><br>
+     <input type="submit" name="SubmitForm" id="submitform" value="Submit" onclick="submit()">
+
+    &nbsp; <input type="reset" name="resetform" id="resetform" value="Reset">
+</fieldset>
+</form>
+
+
+
+
+<div id="SurveyFooter">
+    <footer>Copyright &copy; 2022 Final Project <br><br>
+        <a href="mailto:brotolo@my.wctc.edu">Brayden Rotolo </a> </footer>
+    <br>
+
+    <a href="#top"> Back To Top </a>
+</div>
+</body>
+
+</html>
+

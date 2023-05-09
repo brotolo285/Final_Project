@@ -1,0 +1,72 @@
+
+body{background-color: #7E92B2; color: #0B0034;
+font-family: Arial;  margin: 0; padding: 0;}
+
+
+header a{text-decoration: none;}
+header a:link { color: #00ff00;}
+header a:visited {color: darkblue;}
+header a:hover { color: green; transition: color 10s linear;}
+
+header{margin-top: 50px}
+
+#SurveyHeader{ background-image: url(Determined.jpg); font-size: 90%; background-color: #40407A;
+               color: #000000;  background-size: 100% 100%; margin-top: 50px; }
+
+#HomeFooter{background-image: url(Title.jpg); font-size: 90%; height: 700px; width: 800px; background-color: #40407A;
+ color: #FFFFFF; background-repeat: no-repeat;  background-size: 100% 100%; margin-bottom: 30px;}
+
+
+footer{ clear: right; font-style: italic; text-align: center; font-size: 10px;}
+nav{height: auto; padding-right: 0em; position: fixed; top: 0px; left: 0px; z-index: 9999; text-align: right; background-color: #FFFFFF; margin: 0; padding-top: 0.5em; padding-bottom: 1em; }
+nav a:link {color: #3F2860;}
+nav a:visited {color: #497777;}
+nav a:hover {color: #A26100;}
+nav a{text-decoration: none; }
+nav ul { list-style-type: none; margin: 0px; padding-right: 2em; font-size: 1.2em; }
+nav li { display: inline; padding-left: 2em; width: 30%; }
+*{box-sizing: border-box; }
+#Survey{margin-left: 2em; padding-right: 3em; display: inline-block; font-weight: bold}
+#First\ Name{width: 300px}
+#Last\ Name{width: 300px}
+#Comments{ width: 300px}
+#Email{ width: 350px}
+#Rating{ width: 300px}
+#HomeHeader{ height: 500px; width: 700px; background-image: url(Creepy.jpg); background-size: 70% 80%; background-repeat: no-repeat; margin-top: 50px; line-height: 0px}
+
+#Submitform{ border-radius: 7px; color: #000000; background-color: #FF00FF;}
+
+#AboutHeader{ height: 500px; background-image: url(zelda-skyward-sword.jpg); background-size: 100% 90%; background-repeat: no-repeat; color: #0B0034; margin-top: 50px; line-height: 0px }
+
+header{font-weight: bold}
+#Submissionpage{height: 500px; width: 800px; background-image: url(CoolGroose.jpg); background-size: 100% 90%; font-size: 90%;background-repeat: no-repeat; color: #0B0034;}
+
+
+
+@media only screen and (max-width: 800px) {}
+
+header{font-size: 120%;}
+nav{font-weight: bold;}
+nav ul{flex-direction: row; flex-wrap: nowrap; justify-content: flex-end;}
+nav li{width: 7em;}
+#AboutHeader{ display: block; padding-bottom: 1em; max-width: 800px}
+#HomeHeader{display: block; padding-bottom: 1em; width: 150%;  max-width: 800px}
+#SurveyHeader{display: block; padding-bottom: 1em; width: 100%; max-width: 800px;  }
+#AboutFooter{display: block; padding-bottom: 1em; width: 80%; }
+#HomeFooter{display: block; padding-bottom: 1em; height: 600px; width: 110%; max-width: 800px}
+#SurveyFooter{display: block; padding-bottom: 1em; width: 80%}
+.Text{ margin: auto; width: 80%}
+form{width: 100%; max-width: 50em; display: grid; grid-gap: 1em; grid-template-columns: 9em 1fr; grid-template-rows: auto;}
+input[type="submit"]{grid-column: 2/2; width: 9em;}
+
+
+
+@media only screen and (min-width: 1024px) {}
+
+#SurveyHeader{height: 60vh; padding-top: 5em; padding-left: 8em;}
+#SurveyFooter{height: 30vh; padding-top: 2em; padding-left: 8em;}
+#AboutHeader{height: 50vh; padding-top: 5em; padding-left: 8em;}
+#AboutFooter{height: 30vh; padding-top: 2em; padding-left: 8em;}
+#HomeHeader{height: 50vh; padding-top: 5em; padding-left: 4em;}
+#HomeFooter{height: 60vh; padding-top: 2em; padding-left: 4em;}
+
